@@ -1,0 +1,499 @@
+{
+  "menu": [
+    {
+      "name": "馄饨",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "拉面",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "烩面",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "热干面",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "刀削面",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "油泼面",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "炸酱面",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "重庆小面",
+      "spicy": true,
+      "easteregg":
+      {
+        "text": "蒂娜不能吃辣辣的东西",
+        "img": "diana_cry.gif"
+      }
+    },
+    {
+      "name": "米线",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "酸辣粉",
+      "spicy": true,
+      "easteregg":
+      {
+        "text": "蒂娜不能吃辣辣的东西",
+        "img": "diana_cry.gif"
+      }
+    },
+    {
+      "name": "向晚",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "吃掉，也不是不可以啦",
+        "img": "ava_bighead.gif"
+      }
+    },
+    {
+      "name": "土豆粉",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "螺蛳粉",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "嘉心糖",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "屁用没有",
+        "img": "diana_spit.gif"
+      }
+    },
+    {
+      "name": "凉皮儿",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "麻辣烫",
+      "spicy": true,
+      "easteregg":
+      {
+        "text": "蒂娜不能吃辣辣的东西",
+        "img": "diana_cry.gif"
+      }
+    },
+    {
+      "name": "肉夹馍",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "羊肉汤",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "炒年糕",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "小年糕，嘿嘿嘿",
+        "img": "diana_evil.gif"
+      }
+    },
+    {
+      "name": "炒饭",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "盖浇饭",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "卤肉饭",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "烤肉饭",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "黄焖鸡米饭",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "驴肉火烧",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "川菜",
+      "spicy": true,
+      "easteregg":
+      {
+        "text": "蒂娜不能吃辣辣的东西",
+        "img": "diana_cry.gif"
+      }
+    },
+    {
+      "name": "麻辣香锅",
+      "spicy": true,
+      "easteregg":
+      {
+        "text": "蒂娜不能吃辣辣的东西",
+        "img": "diana_cry.gif"
+      }
+    },
+    {
+      "name": "火锅",
+      "spicy": true,
+      "easteregg":
+      {
+        "text": "两眼一黑了",
+        "img": "diana_cry.gif"
+      }
+    },
+    {
+      "name": "酸菜鱼",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "烤串",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "披萨",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "烤鸭",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "汉堡",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "勇敢牛肉",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "蒂娜不能吃拉拉的东西",
+        "img": "bella_tractor.jpg"
+      }
+    },
+    {
+      "name": "寿司",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "炸鸡",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "蟹黄包",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "果丹皮",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "臭水母，坏乃琳！",
+        "img": "diana_thumbdown.jpg"
+      }
+    },
+    {
+      "name": "煎饼果子",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "生煎",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "双皮奶",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "雪花酥",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "巧克力舒芙蕾",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "酥皮泡芙",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "黑森林",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "布朗尼",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "红丝绒",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "抹茶大福",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "北海道吐司",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "芋泥欧包",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "提拉米苏",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "牛角包",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "轻芝士乳酪起司",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "可丽饼",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    },
+    {
+      "name": "菓子羊羹",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "",
+        "img": ""
+      }
+    }
+  ]
+}

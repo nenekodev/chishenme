@@ -1,48 +1,114 @@
 <!DOCTYPE HTML>
-<html xmlns:wb="http://open.weibo.com/wb">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>中午吃什么</title>
-    <meta name="keywords" content="中午吃什么" />
-    <meta name="description" content="中午吃什么" />
+    <title>嘉然今天吃什么？</title>
+    <meta name="keywords" content="嘉然今天吃什么" />
+    <meta name="description" content="嘉然今天吃什么" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="shortcut icon" href="./favicon.ico">
     <link rel="stylesheet" href="default.css">
-    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
-    <script data-ad-client="ca-pub-5631658013381479" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71978237-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-71978237-1');
-    </script>
+    <link rel="stylesheet" href="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-2-M/bootstrap/5.1.3/css/bootstrap.min.css">
+    <style type="text/css">.html{font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif!important;} #start{background:#E799B0; border:#c9778f; color: #fff;} #start:hover{background: #c9778f};</style>
 </head>
 
 <body>
+    <div id="app" class="container-xl d-flex flex-column justify-content-center" style="height: 100%;">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6">
+          <div class="card mt-5">
+            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+              <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center mb-3">
+                <img id="avatar" class="d-inline-block rounded mt-2 mb-2" width="200" :src="currentPic">
+                <div class="d-inline-block ms-4 mt-2 mb-2">
+                  <h2>嘉然今天吃什么？</h2>
+                  <br>
+                  <h4 style="color:#E799B0">{{currentName}}</h4>
+                  <br>
+                  <small>{{currentTooltipText}}</small>
+                </div>
+                
+              </div>
 
-    <div id="wrapper">
-        <h1>
-            中午吃什么，吃什么？
-            <br>
-            <br>
-            <b style="color:#FF9733" id="what"></b>
-        </h1>
-        <input type="button" value="开始" id="start" />
-        <input type="button" value="开始" id="stop" style="display: none;">
+              <button id="start" @click="start();" class="btn text-nowrap" type="button">吃什么捏？</button>
+              <button id="stop" @click="stop" class="btn btn-danger text-nowrap" type="button" style="display: none;">停止</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <textarea rows="9" cols="53" id="list" style="display:none">
-                馄饨 拉面 烩面 热干面 刀削面 油泼面 炸酱面 炒面 重庆小面 米线 酸辣粉 土豆粉 螺狮粉 凉皮儿 麻辣烫 肉夹馍 羊肉汤 炒饭 盖浇饭 卤肉饭 烤肉饭 黄焖鸡米饭 驴肉火烧 川菜 麻辣香锅 火锅 酸菜鱼 烤串 披萨 烤鸭 汉堡 炸鸡 寿司 蟹黄包 煎饼果子 生煎 炒年糕
-    </textarea>
-
-	<div id="weibo">
-		<wb:follow-button uid="1650984392" type="gray_1" width="67" height="24" ></wb:follow-button>
-	</div>
-
-    <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-    <script src="random.js"></script>
-    <script src="three_punch_combo.js"></script>
-
 </body>
+
+<script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/vue/2.6.14/vue.min.js"></script>
+<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/axios/0.26.0/axios.min.js"></script>
+<script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-2-M/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+var app = new Vue({
+  el:'#app',
+  data() {
+    return {
+      menu: [],
+      currentPic: "./img/diana_yummy.gif",
+      currentName: "",
+      currentTooltipText: "",
+      isSpicy: false,
+      bsDelay: 0
+    }
+  },
+  created() {
+    axios
+    .get('./menu.json')
+    .then(res=>{
+      this.menu = res.data.menu;
+    })
+  },
+  mounted() {
+  },
+  methods: {
+    start(){
+      document.getElementById('stop').style.display = "block";
+      document.getElementById('start').style.display = "none";     
+      timer = setInterval(function () {
+        var r = Math.ceil(Math.random() * app.menu.length),
+        food = app.menu[r - 1];
+        app.currentName = food.name;
+        if(food.easteregg.text){
+          app.currentTooltipText = '💭 ' + food.easteregg.text;
+        }else{
+          app.currentTooltipText = '...';
+        }
+        
+        if(food.easteregg.img) {
+          app.currentPic = "./img/" + food.easteregg.img;
+        }else{
+          app.currentPic = "./img/diana_hungry.gif";
+        }
+
+        // if(food.spicy){
+        //   var rTop = Math.ceil(Math.random() * $(document).height()),
+        //     rLeft = Math.ceil(Math.random() * ($(document).width() - 50)),
+        //     rSize = Math.ceil(Math.random() * (37 - 14) + 14);
+        // $("<span class='temp'></span>").html('🥵').hide().css({
+        //     "top": rTop,
+        //     "left": rLeft,
+        //     "color": "rgba(0,0,0,." + Math.random() + ")",
+        //     "fontSize": rSize + "px"
+        // }).appendTo("app").fadeIn("slow", function () {
+        //     $(this).fadeOut("slow", function () {
+        //         $(this).remove();
+        //     });
+        // });
+        }
+        
+      }, 100);
+    },
+    stop(){      
+      clearInterval(timer);
+      document.getElementById('start').style.display = "block";
+      document.getElementById('start').innerHTML = "不要，换一个";
+      document.getElementById('stop').style.display = "none";
+    }
+  }
+})
+</script>
 </html>
