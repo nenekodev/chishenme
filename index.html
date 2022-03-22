@@ -48,7 +48,7 @@ var app = new Vue({
   data() {
     return {
       menu: [],
-      currentPic: "./img/diana_yummy.gif",
+      currentPic: "https://s2.loli.net/2022/03/22/Qv5FgzLH1yuhpNt.gif",
       currentName: "",
       currentTooltipText: "",
       isSpicy: false,
@@ -79,9 +79,9 @@ var app = new Vue({
         }
         
         if(food.easteregg.img) {
-          app.currentPic = "./img/" + food.easteregg.img;
+          app.currentPic = food.easteregg.img;
         }else{
-          app.currentPic = "./img/diana_hungry.gif";
+          app.currentPic = "https://s2.loli.net/2022/03/22/WtgLCp9aBURHZGv.gif";
         }
 
         // if(food.spicy){
@@ -98,7 +98,7 @@ var app = new Vue({
         //         $(this).remove();
         //     });
         // });
-//         }
+        // }
         
       }, 100);
     },
