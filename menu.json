@@ -69,7 +69,7 @@
       "easteregg":
       {
         "text": "蒂娜不能吃辣辣的东西",
-        "img": "https://s2.loli.net/2022/03/22/i8ctnZYdkIGj9BL.gif"
+        "img": "https://s2.loli.net/2022/03/22/LFHouxI9b41TZVk.gif"
       }
     },
     {
@@ -87,7 +87,7 @@
       "easteregg":
       {
         "text": "蒂娜不能吃辣辣的东西",
-        "img": "https://s2.loli.net/2022/03/22/i8ctnZYdkIGj9BL.gif"
+        "img": "https://s2.loli.net/2022/03/22/LFHouxI9b41TZVk.gif"
       }
     },
     {
@@ -96,7 +96,7 @@
       "easteregg":
       {
         "text": "吃掉，也不是不可以啦",
-        "img": "https://s2.loli.net/2022/03/22/DVEwmQc9xyz3iOR.gif"
+        "img": "https://s2.loli.net/2022/03/22/fDXBioMUWxcTb5K.gif"
       }
     },
     {
@@ -123,7 +123,7 @@
       "easteregg":
       {
         "text": "屁用没有",
-        "img": "https://s2.loli.net/2022/03/22/SbNrH1dg9QYwxE8.gif"
+        "img": "https://s2.loli.net/2022/03/22/iBdmv2CME8Ibo4N.gif"
       }
     },
     {
@@ -141,7 +141,7 @@
       "easteregg":
       {
         "text": "蒂娜不能吃辣辣的东西",
-        "img": "https://s2.loli.net/2022/03/22/i8ctnZYdkIGj9BL.gif"
+        "img": "https://s2.loli.net/2022/03/22/LFHouxI9b41TZVk.gif"
       }
     },
     {
@@ -168,7 +168,7 @@
       "easteregg":
       {
         "text": "小年糕，嘿嘿嘿",
-        "img": "https://s2.loli.net/2022/03/22/ebrXpclYsnPQ3G1.gif"
+        "img": "https://s2.loli.net/2022/03/22/zuDxZLdI8hfNw3s.gif"
       }
     },
     {
@@ -231,7 +231,7 @@
       "easteregg":
       {
         "text": "蒂娜不能吃辣辣的东西",
-        "img": "https://s2.loli.net/2022/03/22/i8ctnZYdkIGj9BL.gif"
+        "img": "https://s2.loli.net/2022/03/22/LFHouxI9b41TZVk.gif"
       }
     },
     {
@@ -240,7 +240,7 @@
       "easteregg":
       {
         "text": "蒂娜不能吃辣辣的东西",
-        "img": "https://s2.loli.net/2022/03/22/i8ctnZYdkIGj9BL.gif"
+        "img": "https://s2.loli.net/2022/03/22/LFHouxI9b41TZVk.gif"
       }
     },
     {
@@ -249,7 +249,7 @@
       "easteregg":
       {
         "text": "两眼一黑了",
-        "img": "https://s2.loli.net/2022/03/22/MiXWsylLnPm7E1j.gif"
+        "img": "https://s2.loli.net/2022/03/22/JRnSpXTVErUbAoI.gif"
       }
     },
     {
@@ -303,7 +303,7 @@
       "easteregg":
       {
         "text": "蒂娜不能吃拉拉的东西",
-        "img": "https://s2.loli.net/2022/03/22/6uQIyUPGeKzpvnZ.jpg"
+        "img": "https://s2.loli.net/2022/03/22/ziBZExN1WXU5afq.jpg"
       }
     },
     {
@@ -339,7 +339,25 @@
       "easteregg":
       {
         "text": "臭水母，坏乃琳！",
-        "img": "https://s2.loli.net/2022/03/22/EceUwQShCBx5XTD.jpg"
+        "img": "https://s2.loli.net/2022/03/22/3rpugTBnDEvl1jq.jpg"
+      }
+    },
+    {
+      "name": "奶淇琳",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "这个不可以！",
+        "img": "https://s2.loli.net/2022/03/22/j6G1e4dzyDnCaK3.jpg"
+      }
+    },
+    {
+      "name": "小狼堡",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "我大哥决明子！",
+        "img": "https://s2.loli.net/2022/03/22/83nhEMPIcSRT64m.png"
       }
     },
     {
@@ -495,5 +513,19 @@
         "img": ""
       }
     }
+  ],
+  "imgArr":[
+    "https://s2.loli.net/2022/03/22/ziBZExN1WXU5afq.jpg",
+    "https://s2.loli.net/2022/03/22/j6G1e4dzyDnCaK3.jpg",
+    "https://s2.loli.net/2022/03/22/iBdmv2CME8Ibo4N.gif",
+    "https://s2.loli.net/2022/03/22/Rf9Z13zehCO4XEM.gif",
+    "https://s2.loli.net/2022/03/22/fDXBioMUWxcTb5K.gif",
+    "https://s2.loli.net/2022/03/22/83nhEMPIcSRT64m.png",
+    "https://s2.loli.net/2022/03/22/3rpugTBnDEvl1jq.jpg",
+    "https://s2.loli.net/2022/03/22/LFHouxI9b41TZVk.gif",
+    "https://s2.loli.net/2022/03/22/zuDxZLdI8hfNw3s.gif",
+    "https://s2.loli.net/2022/03/22/JRnSpXTVErUbAoI.gif",
+    "https://s2.loli.net/2022/03/22/6gPctLmrQRdEfbl.gif"
+
   ]
 }
