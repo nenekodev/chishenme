@@ -136,6 +136,15 @@
       }
     },
     {
+      "name": "海蜇皮",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "[向晚_好可怕]",
+        "img": "https://up.asoulpic.vip/2022/03/23/134203.png"
+      }
+    },
+    {
       "name": "麻辣烫",
       "spicy": true,
       "easteregg":
@@ -534,7 +543,7 @@
     "https://s2.loli.net/2022/03/22/LFHouxI9b41TZVk.gif",
     "https://s2.loli.net/2022/03/22/zuDxZLdI8hfNw3s.gif",
     "https://s2.loli.net/2022/03/22/JRnSpXTVErUbAoI.gif",
-    "https://s2.loli.net/2022/03/22/6gPctLmrQRdEfbl.gif"
-
+    "https://s2.loli.net/2022/03/22/6gPctLmrQRdEfbl.gif",
+    "https://up.asoulpic.vip/2022/03/23/134203.png"
   ]
 }
