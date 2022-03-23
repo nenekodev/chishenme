@@ -316,6 +316,15 @@
       }
     },
     {
+      "name": "小草莓",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "枝江最甜甜甜的小草莓",
+        "img": ""
+      }
+    },
+    {
       "name": "炸鸡",
       "spicy": false,
       "easteregg":
