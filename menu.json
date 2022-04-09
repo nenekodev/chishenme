@@ -530,6 +530,15 @@
         "text": "",
         "img": ""
       }
+    },
+    {
+      "name": "烤全羊",
+      "spicy": false,
+      "easteregg":
+      {
+        "text": "睡不着了就数羊⑧",
+        "img": ""
+      }
     }
   ],
   "imgArr":[
